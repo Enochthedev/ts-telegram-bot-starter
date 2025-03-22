@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+dist/
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Prisma
+prisma/dev.db
+prisma/prod.db
+prisma/*.sqlite
+prisma/migrations/
+.prisma/
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
